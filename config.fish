@@ -1,5 +1,13 @@
 set -g fish_greeting ""
 
+#hydro prompt
+set hydro_fetch true
+set hydro_color_pwd green
+set hydro_color_git red
+set hydro_color_prompt green
+set hydro_color_duration grey
+set hydor_color_error brred
+
 set fish_color_command green
 set fish_color_comment brblack
 set fish_color_cwd cyan
@@ -12,11 +20,7 @@ set fish_color_quote grey
 set fish_color_redirection yellow
 set fish_color_user green
 
-#hydro prompt
-set hydro_fetch true
-
 fish_vi_key_bindings
-fish_vi_cursor
 
 alias vi nvim
 
