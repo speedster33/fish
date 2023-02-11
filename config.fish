@@ -17,9 +17,11 @@ fish_vi_cursor
 
 alias vi nvim
 
-alias lab "/mnt/c/Users/jph33/OneDrive/Documents/School/bju/2023s/cps210/labs/"
-alias bju "/mnt/c/Users/jph33/OneDrive/Documents/School/bju/"
-alias doc "/mnt/c/Users/jph33/OneDrive/Documents/"
-alias jph "/mnt/c/Users/jph33/"
+function kt -a name
+    rm *.class
+    kotlinc $name
+    kotlin *.class
+end
+
 
 fortune | cowsay | lolcat
