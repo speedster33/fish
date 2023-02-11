@@ -18,9 +18,8 @@ fish_vi_cursor
 alias vi nvim
 
 function kt -a name
-    rm *.class
     kotlinc $name
-    kotlin *.class
+    kotlin $f
 end
 
 
