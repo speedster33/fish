@@ -23,6 +23,8 @@ set fish_color_user green
 fish_vi_key_bindings
 
 alias vi nvim
+alias ahk "pwsh.exe -Command C:/Users/jhamm853/OneDrive/Documents/Stuff/ShortcutScripts/Scripts.ahk"
+
 
 function kt
     kotlinc main.kt
