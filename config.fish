@@ -25,6 +25,7 @@ fish_vi_key_bindings
 alias vi nvim
 alias ahk "pwsh.exe -Command C:/Users/jhamm853/OneDrive/Documents/Stuff/ShortcutScripts/Scripts.ahk"
 
+alias sshOracle "sudo ssh ubuntu@129.80.182.118 -i ~/ssh-key-malleum.key"
 
 function kt
     kotlinc main.kt
