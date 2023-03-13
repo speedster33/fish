@@ -1,7 +1,6 @@
 set -g fish_greeting ""
 
 #hydro prompt
-set hydro_fetch true
 set hydro_color_pwd blue
 set hydro_color_git cyan
 set hydro_color_prompt blue
